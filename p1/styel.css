@@ -1,0 +1,104 @@
+/* using variables for reusablility */
+
+:root{
+    --mainColor:rgb(0, 56, 129);
+    --secColor:rgb(0, 132, 141);
+    --mainBack:#e9cccc;
+    --secBack:#ba94c4;
+    --myg:linear-gradient(-90deg,#ffffff,#ffd1b3);
+    --myg2:linear-gradient(45deg,#e0ace2,#bcf5f7e3);
+}
+
+
+
+
+body{
+    /* background-color: var(--myc); */
+    background-image: var(--myg);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#main{
+    /* background-color: var(--secBack); */
+    position: absolute;
+    top:0px;
+    background-image: var(--myg2);
+    font-family: cursive;
+}
+
+#title h2{
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 3em;
+    text-align: center;
+    padding: 2px;
+    margin: 20px 10px;
+}
+
+#title h3{
+    font-family: 'Merienda One', cursive;
+    font-size: 1.5em;
+    margin: -32px auto 20px auto;
+    text-align: center;
+    border: rgb(129, 184, 255) 2px dotted;
+}
+
+
+#img-div{
+    background-image:var(--myg);
+    padding:10px;
+    margin:0;
+}
+
+#image{
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+
+#img-caption{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#list{
+    border-top: #f58d06 1px solid;
+}
+
+#list h3,#list h2{
+    text-align: center;
+    padding: 40px;
+}
+
+#list h4{
+    text-align: center;
+    padding: 40px;
+    width: 70%;
+    margin: 10px auto;
+    font-family: 'Redressed', cursive;
+    font-size: 1.7em;
+    font-weight: lighter;
+    font-style: italic;
+    color:rgb(54, 54, 54);
+}
+
+#list ul{
+    border: solid 2px rgb(53, 53, 53);
+    margin: 20px;
+    padding:50px;
+    
+}
+
+#list ul li{
+    width:70%;
+    padding: 5px;
+    margin:10px auto 10px auto;
+} 
+
+
